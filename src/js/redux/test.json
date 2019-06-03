@@ -1,0 +1,28 @@
+const testJson = {QA:[
+  {id:"0001",contentType:"text",motherId:"",key:["產品介紹","產品","總覽","全部"],title:"產品介紹",content:"介紹介紹介紹"},
+
+  {id:"0002",contentType:"text",motherId:"0001",key:["保險","保險介紹","保險總覽"],title:"保險~~~",content:"保險保險保險"},
+  {id:"0003",contentType:"text",motherId:"0001",key:["信用卡","信用卡總覽","信用卡介紹"],title:"信用卡~~~",content:"信用卡信用卡信用卡"},
+
+    {id:"0004",contentType:"text",motherId:"0002",key:["保險產品","介紹","保險","產品","商品"],title:"保險產品介紹",content:"保險產品介紹保險產品介紹"},
+    {id:"0005",contentType:"text",motherId:"0002",key:["保單服務","保險服務","保單","保險"],title:"保單服務",content:"保單服務保單服務"},
+  {id:"0006",contentType:"text",motherId:"0002",key:["地址","電話","據點","分店","分行"],title:"服務據點",content:"服務據點服務據點"},
+  {id:"0007",contentType:"text",motherId:"0003",key:["信用卡","信用卡產品","信用卡介紹","產品","商品"],title:"信用卡介紹",content:"信用卡介紹信用卡介紹"},
+  {id:"0008",contentType:"text",motherId:"0003",key:["分期"],title:"申請分期",content:"申請分期申請分期"},
+
+  {id:"0009",contentType:"text",motherId:"0004",key:["AAA","保單","保險"],title:"AAA保險",content:"AAA保險AAA保險"},
+  {id:"0010",contentType:"text",motherId:"0004",key:["BBB","保單","保險"],title:"BBB保險",content:"BBB保險BBB保險"},
+  {id:"0011",contentType:"text",motherId:"0004",key:["CCC","保單","保險"],title:"CCC保險",content:"CCC保險CCC保險"},
+  {id:"0012",contentType:"text",motherId:"0005",key:["保費","變更","調整","保險費","保險"],title:"保費變更",content:"保費變更保費變更"},
+  {id:"0013",contentType:"text",motherId:"0005",key:["保險","保單","借款","貸款","借錢"],title:"保單借款",content:"保單借款保單借款"},
+  {id:"0014",contentType:"text",motherId:"0007",key:["XXX","信用卡"],title:"XXX卡",content:"XXX卡"},
+  {id:"0015",contentType:"text",motherId:"0007",key:["YYY","信用卡"],title:"YYY卡",content:"YYY卡"},
+  {id:"0016",contentType:"text",motherId:"0007",key:["zZZ","信用卡"],title:"ZZZ卡",content:"ZZZ卡"},
+
+  {id:"0017",contentType:"resIds",motherId:"0001",key:["常見問題"],title:"常見問題",content:["0002","0003"]},
+  {id:"0018",contentType:"text",motherId:"0001",key:["聯絡","手機","電話","信箱","email","Email"],title:"聯絡資訊",content:"肥錞<br/>電話：0987878787<br/>信箱：fatchunCuteMomo@gmail.com"}
+]};
+
+var xxx ={"id":"123"}
+
+export default xxx;
